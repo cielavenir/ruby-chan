@@ -1,7 +1,7 @@
 # chan
 Bidirectional enumerator (channel) or the chan object like in Golang.
 
-[![Build Status](https://travis-ci.org/cielavenir/chan.png)](https://travis-ci.org/cielavenir/chan) [![Code Climate](https://codeclimate.com/github/cielavenir/chan.png)](https://codeclimate.com/github/cielavenir/chan) [![Coverage Status](https://coveralls.io/repos/cielavenir/chan/badge.png)](https://coveralls.io/r/cielavenir/chan)
+[![Build Status](https://travis-ci.org/cielavenir/ruby-chan.png)](https://travis-ci.org/cielavenir/ruby-chan) [![Code Climate](https://codeclimate.com/github/cielavenir/ruby-chan.png)](https://codeclimate.com/github/cielavenir/ruby-chan) [![Coverage Status](https://coveralls.io/repos/cielavenir/ruby-chan/badge.png)](https://coveralls.io/r/cielavenir/ruby-chan)
 
 ## Supported Ruby versions
 * Ruby 1.8.7 or later
