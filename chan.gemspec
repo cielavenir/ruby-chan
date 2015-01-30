@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["cielartisan@gmail.com"]
   spec.description   = "Bidirectional enumerator (channel) or the chan object like in Golang"
   spec.summary       = "Bidirectional channel like the Golang chan object"
-  spec.homepage      = "http://github.com/cielavenir/chan"
+  spec.homepage      = "http://github.com/cielavenir/ruby-chan"
   spec.license       = "Ruby License (2-clause BSDL or Artistic)"
 
   spec.files         = `git ls-files`.split($/) + [
