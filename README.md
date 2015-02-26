@@ -6,6 +6,7 @@ Bidirectional enumerator (channel) or the chan object like in Golang.
 ## Supported Ruby versions
 * Ruby 1.8.7 or later
 * jruby
+* [mruby](https://github.com/cielavenir/mruby-chan/)
 * (Possibly) rubinius / ironruby / macruby / topaz etc
 
 ## Binary distribution
