@@ -1,4 +1,4 @@
-n -asource "http://rubygems.org"
+source "http://rubygems.org"
 
 platforms :rbx do
 	gem 'rubysl'
