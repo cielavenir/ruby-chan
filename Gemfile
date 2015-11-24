@@ -6,6 +6,7 @@ end
 
 group :development, :test do
 	if RUBY_VERSION<'1.9'
+		gem 'mame-threadfiber'
 		gem 'mime-types', '~> 1.0'
 		gem 'rest-client', '~> 1.6.0'
 	end

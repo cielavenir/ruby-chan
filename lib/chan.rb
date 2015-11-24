@@ -4,11 +4,18 @@
 #
 # Check LICENSE terms.
 #
-# Note: MIT License is also applicable if that compresses LICENSE file.
+# Note: MIT License is also applicable if that (somehow) compresses LICENSE file.
+
+if RUBY_VERSION<'1.9'
+	### This "require" doesn't run on mruby ###
+	require 'rubygems'
+	require 'threadfiber'
+	ThreadFiber.deploy
+end
 
 class Chan
 	# VERSION string
-	VERSION='0.0.0.2'
+	VERSION='0.0.0.3'
 
 	# Channel handler inside block.
 	class Yielder
