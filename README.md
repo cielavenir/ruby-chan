@@ -4,10 +4,11 @@ Bidirectional enumerator (channel) or the chan object like in Golang.
 [![Build Status](https://travis-ci.org/cielavenir/ruby-chan.png)](https://travis-ci.org/cielavenir/ruby-chan) [![Code Climate](https://codeclimate.com/github/cielavenir/ruby-chan.png)](https://codeclimate.com/github/cielavenir/ruby-chan) [![Coverage Status](https://coveralls.io/repos/cielavenir/ruby-chan/badge.png)](https://coveralls.io/r/cielavenir/ruby-chan)
 
 ## Supported Ruby versions
-* Ruby 1.8.7 or later
+* Ruby 1.9 or later
 * jruby
+* rubinius
 * [mruby](https://github.com/cielavenir/mruby-chan/)
-* (Possibly) rubinius / ironruby / macruby / topaz etc
+* (Possibly) ironruby / macruby / topaz etc
 
 ## Binary distribution
 * https://rubygems.org/gems/chan

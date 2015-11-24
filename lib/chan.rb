@@ -11,11 +11,12 @@ if RUBY_VERSION<'1.9'
 	require 'rubygems'
 	require 'threadfiber'
 	ThreadFiber.deploy
+	Enumerator=Enumerable::Enumerator unless Object.const_defined? :Enumerator
 end
 
 class Chan
 	# VERSION string
-	VERSION='0.0.0.3'
+	VERSION='0.0.0.2'
 
 	# Channel handler inside block.
 	class Yielder
